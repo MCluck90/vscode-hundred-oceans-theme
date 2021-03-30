@@ -1,0 +1,40 @@
+{
+  "name": "hundred-oceans-theme",
+  "displayName": "Hundred Oceans",
+  "description": "Inspired by Core Theme, hundredrabbits, and the depths of the ocean",
+  "keywords": [
+    "theme",
+    "dark",
+    "core",
+    "hundredrabbits",
+    "ocean"
+  ],
+  "author": "Mike Cluck",
+  "publisher": "MikeCluck",
+  "license": "MIT",
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=MikeCluck.hundred-oceans-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MCluck90/vscode-hundred-oceans-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MCluck90/vscode-hundred-oceans-theme/issues"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hundred Oceans",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hundred-oceans-color-theme.json"
+      }
+    ]
+  }
+}
